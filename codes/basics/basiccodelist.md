@@ -1,4 +1,4 @@
-# C-codes
+# C_codes
 
 ## A. basics :
 
