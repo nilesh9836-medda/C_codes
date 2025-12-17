@@ -1,4 +1,5 @@
-Write a program to read and display the information of a student using a nested structure.
+// Write a program to read and display the information of a student using a nested structure.
+
 #include <stdio.h>
 
 int main(){

@@ -1,7 +1,8 @@
-Write a program to read and display the information of all the students in a class. Then
-edit the details of the ith student and redisplay the entire information.
+/* Write a program to read and display the information of all the students in a class. Then
+edit the details of the ith student and redisplay the entire information.*/
+
 #include <stdio.h>
-#include <conio.h>
+//#include <conio.h>
 #include <string.h>
 int main()
 {
@@ -40,10 +41,10 @@ printf("\n DOB = %s", stud[i].DOB);
 }
 printf("\n Enter the student number whose record has to be edited : ");
 scanf("%d", &num);
-num= num–1;
+num-=1;
 printf("\n Enter the new roll number : ");
 scanf("%d", &new_rolno);
-printf("\n Enter the new name : "):
+printf("\n Enter the new name : ");
 gets(new_name);
 printf("\n Enter the new fees : ");
 scanf("%d", &new_fees);
@@ -61,6 +62,6 @@ printf("\n NAME = %s", stud[i].name);
 printf("\n FEES = %d", stud[i].fees);
 printf("\n DOB = %s", stud[i].DOB);
 }
-getch();
+//getch();
 return 0;
 }
