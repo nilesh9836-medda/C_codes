@@ -1,19 +1,37 @@
 # Welcome in C_codes
 
-## 📂 Repository Structure
-The codes are organized into distinct folders based on the domain or complexity.
+## 📂 CONTENTS
 
-| Folders | Status | Description |
-|:---|:---:|---:|
-| **[codes](./codes)** | | Main directory for all categorized code |
-| **[basics](./markdown/basiccodelist.md)** | **Active** | Fundamental C programs, operators, control flow, functions, etc. |
-| **[algorithms](./codes/algorithms/)** | **Active** | Sorting, searching, recursion, and general algorithmic problem-solving. |
-| **[data structure](./markdown/datastructurelist.md)** | **Active** | Implementations of lists, stacks, queues, trees, graphs, etc. *(currently working here)* |
-| **games** | Planning | Build some games like 'Tic-Tac-Toe' using C programs |
+### A. BASICS
+
+1. [Print "Hello, World".](./codes/basics/01hello.c)
+2. [Input user defines values & show output.](./codes/basics/02input.c)
+3. [Data Types in C program](./codes/basics/datatypes.c)
+4. [Type casting in C program](./codes/basics/operator_typeCasting.c)
+5. [Operators](./codes/basics/05operators.c)
+6. [Simple arithmetic - sum using user defined numbers.](./codes/basics/03sum.c)
+7. [Swap two numbers using a third variable.](./codes/basics/04swap1.c)
+8. [Swap two numbers without using third variable.](./codes/basics/04swap2.c)
+9. [Find if the user given number is an even or odd number.](./codes/basics/06odd-even.c)
+10. [Find biggest number among three using ternary operator.](./codes/basics/07biggest-number.c)
+11. [Check if the user given year is a leap year or not](../codes/basics/08leap-year.c)
+12. [Build a simple arithmetic calculator.](./codes/basics/09calculator.c)
+13. [Print factorial of the user given number.](./codes/basics/10factorial.c)
+
+### B. ALGORITHMS
+
+### C. DATA STRUCTURE
+
+1. [Create a structure on student details.](./codes/data-structure/61structure-student.c)
+2. [Create a structure to do simple arithmetic using Complex numbers.](./codes/data-structure/62structure-complexNumber.c)
+3. [Write a program to read and display the information of a student using a nested structure.](./codes/data-structure/63structure-studentNested.c)
+4. [Write a program to read and display the information of all the students in a class. Then edit the details of the ith student and redisplay the entire information.](./codes/data-structure/64structure-array.c)
+
+---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. See the LICENSE file for details.
+*This project is licensed under the **MIT License**. See the LICENSE file for details.*
 
 ## 📞 Contact
 
