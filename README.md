@@ -1,8 +1,8 @@
 # Welcome in C_codes
 
-## 📂 CONTENTS
+## 📚 CONTENTS
 
-### A. BASICS
+### 01. Basics
 
 1. [Print "Hello, World".](./codes/basics/01hello.c)
 2. [Input user defines values & show output.](./codes/basics/02input.c)
@@ -18,14 +18,32 @@
 12. [Build a simple arithmetic calculator.](./codes/basics/09calculator.c)
 13. [Print factorial of the user given number.](./codes/basics/10factorial.c)
 
-### B. ALGORITHMS
+### 02. Numbers
 
-### C. DATA STRUCTURE
+1. **[Factorial of a number](./codes/numbers/10factorial.c)**
 
-1. [Create a structure on student details.](./codes/data-structure/61structure-student.c)
-2. [Create a structure to do simple arithmetic using Complex numbers.](./codes/data-structure/62structure-complexNumber.c)
-3. [Write a program to read and display the information of a student using a nested structure.](./codes/data-structure/63structure-studentNested.c)
-4. [Write a program to read and display the information of all the students in a class. Then edit the details of the ith student and redisplay the entire information.](./codes/data-structure/64structure-array.c)
+### 03. Mathematics
+
+### 04. Sum Series
+
+### 05. Functions & Recursions
+
+### 06. Arrays
+
+### 07. Strings
+
+### 08. Matrices
+
+### 09. Pointers
+
+### 10. Structures
+
+### 11. Patterns
+
+1. [Create a structure on student details.](./codes/structure/61structure-student.c)
+2. [Create a structure to do simple arithmetic using Complex numbers.](./codes/structure/62structure-complexNumber.c)
+3. [Write a program to read and display the information of a student using a nested structure.](./codes/structure/63structure-studentNested.c)
+4. [Write a program to read and display the information of all the students in a class. Then edit the details of the ith student and redisplay the entire information.](./codes/structure/64structure-array.c)
 
 ---
 
