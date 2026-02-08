@@ -1,2 +1,4 @@
 # For IDE
-.txt
+*.txt
+out/
+bin/
