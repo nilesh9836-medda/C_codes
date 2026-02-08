@@ -7,7 +7,7 @@ int main()
     scanf("%d%d",&s,&e);
     if (s<e)
     {
-        printf("\nThe Odd Numbers List:\n");
+        printf("\nThe Odd Numbers List from %d to %d:\n",s,e);
         for(int i=s;i<=e;i++)
             if (i%2 != 0)
                 printf("\t%d",i);
