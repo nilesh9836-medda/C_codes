@@ -1,4 +1,4 @@
-# Basics
+# 01. Basics
 
 1. **[Print "Hello, World".](./01hello.c)**
 
@@ -20,12 +20,12 @@
 
 10. **[To find if the user given number is an even or odd number.](./06odd-even.c)**
 
-11. **[To find biggest number among three using ternary operator.](./07biggest-number.c)**
+11. **[To find the biggest number among three using ternary operator.](./07biggest-number.c)**
 
 12. **[To check if the user given year is a leap year or not](./08leap-year.c)**
 
 13. **[To print 1 to 100](./13print1to100.c)**
 
-14. **[To print Alphabets from A-z](./14printAlphabets.c)**
+14. **[To print Alphabets from A-Z](./14printAlphabets.c)**
 
 15. **[To print all the Odd numbers from 'N1' to 'N2'](./15oddNumList.c)**
