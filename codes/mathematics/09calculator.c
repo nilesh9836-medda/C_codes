@@ -3,10 +3,10 @@
 
 int main() {
     char ch;
-    int n1,n2;
-    float r;
+    float n1,n2;
+    float r=0;
     printf("Enter two numbers:\n");
-    scanf("%d%d", &n1, &n2);
+    scanf("%f%f",&n1,&n2);
     printf("**************Welcome**************\nEnter + to sum\nEnter - to subtract\nEnter * to product\nEnter / to divide\n");
     scanf(" %c", &ch);
     // printf(" %c\n",ch);
@@ -14,23 +14,23 @@ int main() {
     switch(ch){
         case '+':
         {
-            r=(float)n1+n2;
+            r=n1+n2;
             break;
         }
         case '-':
         {
-            r=(float)n1-n2;
+            r=n1-n2;
             break;
         }
         case '*':
         {
-            r=(float)n1*n2;
+            r=n1*n2;
             break;
         }
         case '/':
         {
             if(n2!=0)
-                r=(float)n1/n2;
+                r=n1/n2;
             else
                 printf("ERROR!!!!\n");
             break;
@@ -41,7 +41,7 @@ int main() {
                 exit(1);
             }
     }
-    printf("\nRESULT:\n%d%c%d=%.3f\n",n1,ch,n2,r);
+    printf("\nRESULT:\n%.2f%c%.2f=%.3f\n",n1,ch,n2,r);
 
     return 0;
 }
